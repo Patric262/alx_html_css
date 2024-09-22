@@ -1,0 +1,44 @@
+/* 1. Apply flexbox to body */
+body {
+    display: flex;
+    flex-direction: column; /* Stacks header, main, and footer in a column */
+    margin: 0;
+    height: 100vh; /* Ensure the body takes up the entire viewport height */
+}
+
+/* 2. Apply flexbox to main */
+main {
+    display: flex;
+    flex-direction: row; /* Layout article and aside side by side */
+    flex: auto; /* Ensure it adapts automatically */
+}
+
+/* 3. Article and aside width */
+article {
+    flex: 2; /* Takes 2/3 of the space */
+    overflow-y: auto; /* Allows scrolling */
+    padding: 10px;
+}
+
+aside {
+    flex: 1; /* Takes 1/3 of the space */
+    overflow-y: auto; /* Allows scrolling */
+    padding: 10px;
+}
+
+/* 4. Styling header and footer */
+header, footer {
+    background-color: lightgray; /* Add color for visibility */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Optional - Add some space and borders for visualization */
+article, aside {
+    border: 1px solid black;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+}
