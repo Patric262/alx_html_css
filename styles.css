@@ -42,3 +42,12 @@ main {
     flex: 1;
     padding: 10px;
 }
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; /* Stack article and aside vertically on smaller screens */
+    }
+
+    article, aside {
+        flex: 1; /* Ensure both article and aside take full width in the stacked layout */
+    }
+}
