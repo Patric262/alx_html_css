@@ -1,0 +1,51 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth; /* For smooth scrolling */
+    Justify-content: Space-between;
+}
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    
+  }
+  .header-right {
+    float: right;
+  }
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+    .container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 1;
+}
+.footer {
+  background-color: blueviolet;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
