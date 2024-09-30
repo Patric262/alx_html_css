@@ -1,40 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Page</title>
-    <link href="base.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Headphones - A responsive webpage design based on design mockups.">
+  <title>Headphones Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="works_on_smartphone">
-    <nav><label class="log">✯</label>
-    <ul>
-        <li> <a class="active"></a></li>
-        <li><a  class="active" href="#">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">services</a></li>
-        <li><a href="#">contant</a></li>
-    </ul>
-    </nav>
-    
-    
-    <header>
-     <p><i>header that show my exceting journal  of my web development </i></p>
-                
-    </header>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <img src="logo.png" alt="Headphones Logo" class="logo">
+      <nav class="nav">
+        <ul>
+          <li><a href="#">What we do</a></li>
+          <li><a href="#">Our results</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <article>
-            <p><b><u>this is a content of header: </u></b> <br>As I approach the end of my ALX Front End Web Development courses,<br> I can expect to emerge with a solid foundation <br>in the latest technologies and best practices.<br> I’ll have the skills to create responsive and visually<br> appealing websites that deliver exceptional user experiences.<br> With hands-on projects under my belt, I’ll feel<br> confident tackling real-world challenges and collaborating<br> with other developers. Additionally, I’ll be equipped<br> with a portfolio that showcases my work,<br> opening doors to exciting career opportunities. <br>Most importantly, I’ll have the knowledge and passion<br> to continue growing in this ever-evolving field.</p>
-        </article>
-        <aside>
-            <p><b><u>Content of the aside :</u></b>I can hardly contain my excitement as I dive deeper into <br>web development! Each new concept feels like unlocking a door <br>to endless possibilities, from crafting stunning visuals<br> with CSS to bringing ideas to life with <br>JavaScript. The thrill of building my own<br> projects and seeing them come alive on <br>the screen is exhilarating. I can’t wait<br> to explore the latest frameworks and tools that<br> make coding even more dynamic.<br> Collaborating with others and sharing knowledge<br> fuels my passion even more. Every line <br>of code feels like a step toward mastery,<br> and I’m eager to embrace every challenge ahead.<br> The journey has just begun, and I’m ready<br> for all the learning and growth that awaits! </p></u></b></p>
-        </aside>
-    </main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Lorem ipsum dolor sit amet lorem ipsum</h1>
+      <p>Lorem ipsum dolor set amet lorem dolor set</p>
+      <a href="#" class="btn">Call to Action</a>
+    </div>
+  </section>
 
-    <footer>
-        <p>Made by Patrick Iradukunda - <a href="https://example.com" target="_blank">here</a>.</p>
-    </footer>
+  <!-- What We Do Section -->
+  <section class="what-we-do">
+    <div class="container">
+      <h2>What we do...</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      <div class="services">
+        <div class="service-item">
+          <img src="file-SkT6QEbgaG5o8shpOS2wlm1P" alt="Desktop version of Headphones">
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="service-item">
+          <img src="file-mQjplMHfdHfkopny6aOqZDQo" alt="Mobile version of Headphones">
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="service-item">
+          <img src="file-8zj2dXyr5R6OxiO1oZvU0LaV" alt="Tablet version of Headphones">
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section class="results">
+    <div class="container">
+      <h2>Our results speak for themselves</h2>
+      <div class="stats">
+        <div class="stat-item">+2%<p>Lorem ipsum</p></div>
+        <div class="stat-item">+2%<p>Lorem ipsum</p></div>
+        <div class="stat-item">+2%<p>Lorem ipsum</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2>Contact us</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Your message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <img src="logo.png" alt="Headphones Logo">
+      <div class="socials">
+        <a href="#"><img src="facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="instagram.svg" alt="Instagram"></a>
+      </div>
+      <p>&copy; Headphones 2024</p>
+    </div>
+  </footer>
 </body>
 </html>
